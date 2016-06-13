@@ -1,0 +1,10 @@
+<?php
+include('admin/config/connection.php');
+ if($_GET['user_id']=="")
+{
+	header("location:./");
+}
+$content->get_header();
+$getcontent->get_userprofile();
+$content->get_footer();
+?>

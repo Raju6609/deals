@@ -1,0 +1,211 @@
+/* content */
+
+
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+
+
+#amazingcarousel-1 .amazingcarousel-image {	
+
+	position: relative;
+
+	padding: 4px;
+	border:1px solid #d40029;
+
+}
+
+
+
+#amazingcarousel-1 .amazingcarousel-image img {
+
+	display: block;
+
+/*	width: 100%;*/
+
+	max-width: 100%;
+
+	border: 0;
+
+	margin: 0;
+
+	padding: 0;
+
+	-moz-border-radius: 0px;
+
+	-webkit-border-radius: 0px;
+
+	border-radius: 0px;
+
+}
+
+
+
+
+#amazingcarousel-1 .amazingcarousel-title {
+
+	position:relative;
+
+	font: 16px 'MyriadPro-Cond';
+
+	color:#333333;
+	margin-left:3px;
+	font-weight:bold;
+
+	text-align:left;
+
+	overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+	width:100%;
+
+}
+#amazingcarousel-1 .amazingcarousel-title a{
+	color:#333;
+}
+#amazingcarousel-1 .amazingcarousel-title a:hover{
+	color:#d40029;
+}
+
+
+
+#amazingcarousel-1 .amazingcarousel-description {
+
+	position:relative;
+
+	font: 16px 'MyriadPro-Cond';
+
+	color:#333333;
+
+margin-left:3px;
+
+	text-align:left;	
+
+		overflow: hidden;
+	text-overflow: ellipsis;
+    white-space: nowrap;
+
+}
+
+
+
+/* carousel */
+
+
+
+#amazingcarousel-container-1 {
+
+	padding: 32px 60px; 
+
+}
+
+
+
+#amazingcarousel-1 .amazingcarousel-list-container { 
+
+	padding: 8px 0;
+
+}
+
+
+
+/* item */
+
+
+
+#amazingcarousel-1 .amazingcarousel-item-container {
+
+	text-align: center;
+
+	padding: 4px;
+
+}
+
+
+
+/* arrows */
+
+
+
+#amazingcarousel-1 .amazingcarousel-prev {
+
+	right: 45px;
+
+	top: -10%;
+
+
+	margin-top: -24px;
+
+	background:url(../carouselengine/arrows-48-48-2.png) 0% 0% !important;
+
+}
+
+
+
+#amazingcarousel-1 .amazingcarousel-next {
+
+	right: 45px;
+
+	top:-10%;
+
+	margin-right: -43px;
+
+	margin-top: -24px;
+
+	background:url(../carouselengine/arrows-48-48-2.png) 100% 0% !important;
+
+}
+
+
+
+/* navigation bullets */
+
+
+
+#amazingcarousel-1 .amazingcarousel-nav {
+
+	position: absolute;
+
+	width: 100%;
+
+	top: 100%;
+
+}
+
+
+
+#amazingcarousel-1 .amazingcarousel-bullet-wrapper {
+
+	margin: 4px auto;
+
+}
+
+
+
+/* hide navigation on mobile */
+
+
+
+@media (max-width: 600px) {
+
+	#amazingcarousel-1 .amazingcarousel-nav {
+
+		display: none;
+
+	}
+
+}
+
+
+
+.amazingcarousel-item{
+
+	width:138px !important;
+	background:#fff !important;
+	border:1px solid #ccc;
+	padding:3px;
+	margin-right:5px !important;
+}
+
+
+

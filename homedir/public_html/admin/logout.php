@@ -1,0 +1,11 @@
+<?
+session_start();
+include('config/connection.php');
+//$con->getconnect();
+//$f->checklogin();
+$logout=$f->logOut();
+if($logout==true)
+{
+	header("location:./");
+}
+?>
